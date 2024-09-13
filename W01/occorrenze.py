@@ -6,7 +6,7 @@ def leggiFile(nomeFile):
     file = open(nomeFile, 'r')
     reader = csv.reader(file)
 
-    # crea un dizionario vuoto
+    # crea un dizionario vuoto (nomi,occorrenze)
     freq = {}
     primaRiga = True
 
@@ -17,10 +17,11 @@ def leggiFile(nomeFile):
         else:
             # estrazione nome dalla riga (ogni riga è una lista dei campi contenuti nel file)
             nome = line[2]
-            # se il nome è nel dizionario, incrementa la frequenza, altrimenti aggiungilo con frequenza 1
+            # se il nome è nel dizionario, incrementa la frequenza
             if nome in freq:
                 freq[nome] = freq[nome] + 1
             else:
+                # altrimenti aggiungilo con frequenza 1    
                 freq[nome] = 1
 
     file.close()
@@ -32,7 +33,7 @@ def ordina(freq):
     #lista.sort(key=lambda x:x[1], reverse = True)
     lista.sort(key=operator.itemgetter(1), reverse = True)
     return lista
-    #return sorted(freq.items(), key=lambda x: x[1], reverse=True)
+
 
 def stampa(lista, posizioni):
     for i in range(posizioni):
