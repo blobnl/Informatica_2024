@@ -1,0 +1,13 @@
+scelta macchina più conveniente
+
+dati x macchina
+- prezzo di acquisto, efficienza (km/l)
+- anni = 10
+- km/anno = 15.000
+- prezzo al litro = 1.5€
+
+1. CTA = prezzo acquistoA + km/anno / efficienzaA * costoL * anni
+2. CTB = prezzo acquistoB + km/anno / efficienzaB * costoL * anni
+3. se CTA < CTB
+    sacuista A, stop
+4. altrimenti acquista B, stop

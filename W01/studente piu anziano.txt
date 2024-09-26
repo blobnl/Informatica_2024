@@ -1,0 +1,11 @@
+soluzione A
+1. calcolo età per ogni studente
+2. ordino la lista degli studenti per età decrescente
+3. stampo nome cognome e età del primo studente della lista
+
+soluzione B
+1. sundet più vecchio = primo in elenco
+2. per tutti gli altri studenti in elenco
+    2.1 se età studente corrente > età studente più vecchio
+        studente più vecchio = studente corrente
+3. stampa studente più vecchio

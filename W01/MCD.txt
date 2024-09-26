@@ -1,0 +1,12 @@
+Calcolare il massimo comune divisore tra due numeri interi A e B entrambi maggiori di zero
+
+1. se A < B prova = A
+    altrimenti prova = B
+
+2. se prova è divisore di A e prova è divisore di B
+    2.1 MCD = prova
+    2.2 se MCD = 1 stampa no MCD
+    2.3 altrimenti stampa MCD
+    2.4 stop
+3. altrimenti, prova = prova - 1
+4. torna a 2
