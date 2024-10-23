@@ -39,6 +39,7 @@ Il web è pieno di risorse gratuite e di alta qualità. Questa è una lista (inc
 
 ### Online
 
-- [**Replit**](https://replit.com/): IDE online gratuito (ma con funzionalità limitate) per Python e molti altri linguaggi — richiede la registrazione
+- ⭐[**Codespace**](https://github.com/features/codespaces): IDE online di Github. Fondamentalmente è una versione online di Visual Studio Code  — richiede un account Github
+- [**Replit**](https://replit.com/): IDE online gratuito (ma con funzionalità limitate, e la possibilità di salvare solo 3 progetti nella versione online) per Python e molti altri linguaggi — richiede la registrazione
 - [**Colab**](https://colab.research.google.com): ambiente gratuito Jupyter online che salva i notebook su Google Drive — richiede un account Google
 - [**NOTEBOOKS_**](https://notebooks.ai/dashboard): ambiente gratuito Jupyter online — richiede la registrazione

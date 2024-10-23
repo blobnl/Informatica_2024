@@ -6,7 +6,7 @@ if name1 != name2:
 else:
     print("i nomi sono uguali")
 
-if name1 < name2:
+if name1 <= name2:
     print(name1, name2)
 else:
     print(name2, name1)

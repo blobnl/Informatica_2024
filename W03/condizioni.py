@@ -7,4 +7,4 @@ if condizione:
         print("condizione vera e condizione2 falsa")
 
 else:
-    print("blocco flaso")
+    print("blocco false")
