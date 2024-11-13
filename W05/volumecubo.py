@@ -7,8 +7,11 @@ def main():
 
 def volumeCubo(latoCubo):
     # corpo fx
-    volume = latoCubo ** 3
-    return volume
+    if latoCubo < 0:
+        return 0
+    else:
+        volume = latoCubo ** 3
+        return volume
 
 
 main()
