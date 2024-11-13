@@ -23,6 +23,11 @@ def stampaGriglia(griglia):
         if r < SIZE - 1:
             print('-+-+-')
 
+def inserisciMossa(griglia, player):
+    pass
+
+def controllaGriglia(griglia):
+    pass
 
 def main():
     PLAYER_1 = 'X'
@@ -30,5 +35,16 @@ def main():
 
     griglia = creaGriglia() 
     stampaGriglia(griglia)
+
+    finito = False
+    player = PLAYER_1
+    while not finito:
+        inserisciMossa(griglia, player)
+        stampaGriglia(griglia)
+        finito = controllaGriglia(griglia)
+        if player == PLAYER_1:
+            player = PLAYER_2
+        else:
+            player = PLAYER_1
 
 main()
