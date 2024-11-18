@@ -24,7 +24,24 @@ def stampaGriglia(griglia):
             print('-+-+-')
 
 def inserisciMossa(griglia, player):
-    pass
+    corretto = False
+    while not corretto:
+        valore = int(input('Inserire casella (1:9): '))
+        if valore < 1 or valore > 9:
+            print('Casella non valida')
+        else:
+            riga = (valore - 1 ) // 3
+            colonna = (valore - 1 ) % 3
+            if griglia[riga][colonna] != ' ':
+                print('Errore: casella occupata')
+            else:
+                griglia[riga][colonna] = player
+                corretto = True
+
+    return
+
+def stampaVincitore(player):
+    print(f'Ha vinto il giocatore {player}')
 
 def controllaGriglia(griglia):
     """
@@ -38,7 +55,7 @@ def controllaGriglia(griglia):
             return True
 
     # verticali
-    for colonna in range(len(riga[0])):
+    for colonna in range(len(griglia[0])):
         if griglia[0][colonna] != " " and griglia[0][colonna] == griglia[1][colonna] \
             and griglia[1][colonna] == griglia[2][colonna]:
             stampaVincitore(griglia[0][colonna])
