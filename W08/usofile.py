@@ -1,7 +1,10 @@
-#outfile = open("fileOutput.txt", "a", encoding = "utf-8")
+# 1. apertura e chiusura esplicita di file in scrittura
+
+#outfile = open("fileOutput.txt", "w", encoding = "utf-8")
 # usare il file in scrittura
 #outfile.close()
 
+# apertura 
 ##with open("fileOutput.txt", "w", encoding = "utf-8") as outfile:
 #    print('scrittura del file')
 
