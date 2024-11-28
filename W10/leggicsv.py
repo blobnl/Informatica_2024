@@ -16,7 +16,7 @@ def main():
             dati.append(record)
 
     # elaboro i contenuti...
-    with open('filout.csv', 'w') as file:
+    with open('filout.csv', 'w', newline='') as file:
         csvWriter = writer(file, delimiter=';')
         # salva le informazioni...
         csvWriter.writerows(dati)
