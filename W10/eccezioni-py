@@ -1,0 +1,8 @@
+dato = int(input('Inserisci divisore: '))
+try:
+    risultato = 10 / dato
+    print(risultato)
+except Exception as e:
+    print('Hai inserito il valore zero, il programma termina', e)
+
+print('FIne del programma')
