@@ -1,4 +1,4 @@
-# Informatica 2024 (corso 16)
+# Informatica 2025 (corso 16 - Bottino)
 ## Riferimenti / Libri di Testo
 
 ### Offline
