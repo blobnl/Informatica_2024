@@ -1,0 +1,6 @@
+1. mcd = 1
+2. leggi a e b
+3. se a > b: prova = b, altrimenti prova = a
+4. se prova è divisore di a e b
+    4,1 mcd = prova, stampa prova; end
+5 altrimenti, decrementa prova di 1 e torna a 4
