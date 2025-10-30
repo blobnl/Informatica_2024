@@ -9,11 +9,7 @@ Il libro di testo *ufficiale* per tutti i corsi del Politecnico è:
 
   *Concetti di informatica e fondamenti di Python*
 
-  (Edizione italiana a cura di Marcello Dalpasso); Apogeo Education [
-
-  Seconda edizione
-
-  ]
+  (Edizione italiana a cura di Marcello Dalpasso); Apogeo Education [Seconda edizione]
 
   - Sia [CLUT](https://www.clut.it/ita/elettrotecnica-elettronica-informatica/-/concetti-di-informatica-e-fondamenti-di-python/348.html) che [Levrotto e Bella](https://www.levrotto-bella.net/concetti-informatica-fondamenti-python-horstmann) offrono uno sconto per gli studenti del Politecnico.
 
@@ -40,6 +36,7 @@ Il web è pieno di risorse gratuite e di alta qualità. Questa è una lista (inc
 ### Online
 
 - ⭐[**Codespace**](https://github.com/features/codespaces): IDE online di Github. Fondamentalmente è una versione online di Visual Studio Code  — richiede un account Github
+- [**Jupiter**](https://jupyter.org/): È un ambiente interattivo per scrivere codice, testo e grafici nello stesso documento (“notebook” con estensione .ipynb).
 - [**Replit**](https://replit.com/): IDE online gratuito (ma con funzionalità limitate, e la possibilità di salvare solo 3 progetti nella versione online) per Python e molti altri linguaggi — richiede la registrazione
+- Jupiter: 
 - [**Colab**](https://colab.research.google.com): ambiente gratuito Jupyter online che salva i notebook su Google Drive — richiede un account Google
-- [**NOTEBOOKS_**](https://notebooks.ai/dashboard): ambiente gratuito Jupyter online — richiede la registrazione
