@@ -6,12 +6,13 @@ Calcolare anche lo spazio rimanente alle estremità
 (piastrelle devono essere centrate)
 '''
 
-larParete = 100
-larPiastrella = 5
+
+larParete = float(input("INserisci larghezza parete (in m): "))
+larPiastrella = float(input("Inerisci larghezza piastrlla (in m): "))
 larCoppia = larPiastrella * 2
 
 numCoppie = (larParete - larPiastrella) // larCoppia
-piastrelle = numCoppie * 2 + 1
+piastrelle = int(numCoppie * 2 + 1)
 spazioRimanenete = (larParete - piastrelle * larPiastrella) / 2
 
 print('Piastrelle = ', piastrelle)

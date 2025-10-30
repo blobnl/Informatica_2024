@@ -1,0 +1,9 @@
+1. leggi a e b
+2. mcd = minimo tra a e b
+3. finchè mcd non è divisore di a e b e mcd > 1
+    mcd = mcd - 1
+
+4. se mcd == 1
+    stampa no divisore comune
+altrimenti
+    stampa mcd
