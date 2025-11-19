@@ -1,0 +1,11 @@
+radar
+computer
+level
+world
+civic
+python
+madam
+hello
+racecar
+science
+refer
