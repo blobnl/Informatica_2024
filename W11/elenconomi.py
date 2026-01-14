@@ -30,9 +30,9 @@ def main():
     elenco = leggiElenco('14BHDWZ_2026.csv')
     ordinati = sorted(elenco.items(),
                       key = itemgetter(1),
-                      reverse = False)
+                      reverse = True)
     
-    N = 20
+    N = 10
     for i in range(N):
         (nome, occorrenza) = ordinati[i]
         print(f'{nome:20s} {occorrenza: 6d}')
