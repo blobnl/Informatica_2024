@@ -1,3 +1,0 @@
-Ciao, a tutti.     
-questo è un file di testo: leggetelo come file di testo!!!
-adesso proviamo a leggerlo(sperando che tutto vada bene).

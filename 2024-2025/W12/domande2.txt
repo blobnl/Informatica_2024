@@ -1,3 +1,0 @@
-Sesso=Uomo
-Lunghezza Capelli=Corti
-Barba=SI

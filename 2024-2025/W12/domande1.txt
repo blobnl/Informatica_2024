@@ -1,3 +1,0 @@
-Colore Capelli=Biondo
-Lunghezza Capelli=Corti
-Occhiali=SI
