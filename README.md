@@ -38,4 +38,3 @@ Il web è pieno di risorse gratuite e di alta qualità. Questa è una lista (inc
 - ⭐[**Codespace**](https://github.com/features/codespaces): IDE online di Github. Fondamentalmente è una versione online di Visual Studio Code  — richiede un account Github
 - [**Jupiter**](https://jupyter.org/): È un ambiente interattivo per scrivere codice, testo e grafici nello stesso documento (“notebook” con estensione .ipynb).
 - [**Colab**](https://colab.research.google.com): ambiente gratuito Jupyter online che salva i notebook su Google Drive — richiede un account Google
-- [**VSC online**](https://vscode.dev/?vscode-lang=it-it): versione online di VSC
