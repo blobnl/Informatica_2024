@@ -42,7 +42,7 @@ def stampa(lista, posizioni):
 
 def main():
     # dichiarazioni costanti
-    FILENAME = "14BHDWZ_2026.csv"
+    FILENAME = "14BHDWZ_2027.csv"
     DA_STAMPARE = 10
 
     # leggi il file, calcolando le frequenze (contenute in un dizionario (nome, frequenza)
