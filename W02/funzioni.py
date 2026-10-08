@@ -24,3 +24,7 @@ massimo = max(12, 56, -45, 67, 45, valore)
 minimo = min(12, 56, -45, 67, 45, valore)
 print(massimo, minimo)
 
+
+# arrotondamento
+pi_greco = 3.141516
+pi_arrotondato = round(pi_greco)
