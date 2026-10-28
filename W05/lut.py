@@ -12,3 +12,16 @@ tradurre cifre numeriche in parole
 etc...
 
 '''
+finito = False
+while not finito:
+    stringa = input("inserire cifra: ")
+    if stringa == "":
+        finito = True
+        continue
+    
+    # else....
+    cifra = int(stringa)
+    cifre = ["zero", "uno", "due", "tre"]
+    output = cifre[cifra]
+    # etc....
+    print(output)
