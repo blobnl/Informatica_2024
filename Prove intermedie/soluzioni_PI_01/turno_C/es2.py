@@ -3,19 +3,29 @@ Testo esercizio 2
 
 ### L'occupazione massima del parcheggio
 
-Un parcheggio ha `100` posti auto ed è inizialmente vuoto. Durante la giornata vengono registrati gli ingressi e le uscite. Il programma legge una sequenza di numeri interi, uno per riga, terminata dalla sentinella `0` (che non rappresenta un movimento):
+Un parcheggio ha `100` posti auto ed è inizialmente vuoto. 
+Durante la giornata vengono registrati gli ingressi e le uscite. 
+Il programma legge una sequenza di numeri interi, uno per riga, 
+terminata dalla sentinella `0` (che non rappresenta un movimento):
 
 - Un valore positivo indica quante automobili entrano.
 - Un valore negativo indica quante automobili escono.
 
-Si garantisce che ogni variazione prima della sentinella sia diversa da zero e che il numero di automobili presenti rimanga sempre compreso tra `0` e `100`, estremi inclusi. Si garantisce inoltre **almeno una variazione prima dello 0**.
+Si garantisce che ogni variazione prima della sentinella 
+sia diversa da zero e che il numero di automobili presenti 
+rimanga sempre compreso tra `0` e `100`, estremi inclusi. 
+Si garantisce inoltre **almeno una variazione prima dello 0**.
 
 Il programma deve stampare:
 
-1. Il **massimo numero di automobili presenti contemporaneamente** nel corso della giornata.
-2. Il **numero di volte in cui, dopo una variazione, il parcheggio raggiunge quel valore massimo**.
+1. Il **massimo numero di automobili presenti contemporaneamente** 
+nel corso della giornata.
+2. Il **numero di volte in cui, dopo una variazione, 
+il parcheggio raggiunge quel valore massimo**.
 
-La situazione iniziale (parcheggio vuoto prima di ogni variazione) **non** conta come evento. Se lo stesso massimo viene raggiunto di nuovo dopo essere stato abbandonato, va contato nuovamente.
+La situazione iniziale (parcheggio vuoto prima di ogni variazione) 
+**non** conta come evento. Se lo stesso massimo viene raggiunto di 
+nuovo dopo essere stato abbandonato, va contato nuovamente.
 
 **Esempio di esecuzione**:
 
@@ -50,6 +60,7 @@ while variazione != 0:
     elif presenti == massimo:
         # incrementa il numero di volte in cui si è raggiunto il massimo
         volte += 1
+        
     variazione = int(input("Inserire variazione: "))
 
 print(f"Massimo auto presenti: {massimo}")
