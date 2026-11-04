@@ -3,9 +3,13 @@ Testo esercizio 1
 
 ### Le consegne in ritardo
 
-Un corriere effettua `N` consegne. Per ogni consegna si registra lo **scostamento in minuti** rispetto all'orario previsto: un valore negativo indica un anticipo, un valore positivo un ritardo, e zero una consegna puntuale.
+Un corriere effettua `N` consegne. 
+Per ogni consegna si registra lo **scostamento in minuti** rispetto 
+all'orario previsto: un valore negativo indica un anticipo, 
+un valore positivo un ritardo, e zero una consegna puntuale.
 
-Scrivere un programma che legga un intero positivo `N` e successivamente `N` scostamenti interi, uno per riga.
+Scrivere un programma che legga un intero positivo `N` 
+e successivamente `N` scostamenti interi, uno per riga.
 
 Il programma deve stampare:
 
@@ -28,7 +32,7 @@ Input:
 Output atteso:
 ```text
 Minuti totali di ritardo: 13
-Percentuale in ritardo: 40.0
+Percentuale in ritardo: 40.0%
 ```
 '''
 

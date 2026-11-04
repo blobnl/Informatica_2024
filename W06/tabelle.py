@@ -29,5 +29,5 @@ for r in range(RIGHE):
     for c in range(COLONNE):
         tabella[r][c] = tabella[r][c] ** 2
         
-print(tabella)
+print(tabella)\
 

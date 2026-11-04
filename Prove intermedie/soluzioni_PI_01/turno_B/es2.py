@@ -3,11 +3,19 @@ Testo esercizio 2
 
 ### I cambi di direzione dell'ascensore
 
-Un ascensore parte dal piano `0`. Il programma legge, uno per riga, i piani delle fermate successive, terminando quando viene inserito `-1` (sentinella che non è una fermata). Tutti i piani validi sono interi compresi fra `0` e `20` inclusi.
+Un ascensore parte dal piano `0`. Il programma legge, 
+uno per riga, i piani delle fermate successive, terminando 
+quando viene inserito `-1` (sentinella che non è una fermata). 
+Tutti i piani validi sono interi compresi fra `0` e `20` inclusi.
 
-Si garantisce che **la prima fermata inserita sia diversa dal piano 0**; le fermate successive possono anche coincidere con il piano corrente. Nota: dato che l'ascensore parte dal piano 0, il primo movimento è necessariamente una salita.
+Si garantisce che **la prima fermata inserita sia diversa dal piano 0**; 
+le fermate successive possono anche coincidere con il piano corrente. 
+Nota: dato che l'ascensore parte dal piano 0, 
+il primo movimento è necessariamente una salita.
 
-Il programma deve contare quante volte l'ascensore **cambia direzione**, passando da salita a discesa o viceversa. Una fermata allo stesso piano non costituisce un movimento e non modifica la direzione precedente.
+Il programma deve contare quante volte l'ascensore **cambia direzione**, 
+passando da salita a discesa o viceversa. Una fermata allo stesso piano 
+non costituisce un movimento e non modifica la direzione precedente.
 
 **Esempio di esecuzione**:
 
@@ -29,12 +37,11 @@ I cambi avvengono negli spostamenti `5 → 2`, `2 → 4` e `4 → 1`.
 '''
 
 finito = False
-inseriti = 0
 
 SALITA = 1
 DISCESA = -1
 
-direzione = 1
+direzione = SALITA
 cambi = 0
 
 # il piano iniziale è 0
