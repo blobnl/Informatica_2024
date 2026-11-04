@@ -3,7 +3,8 @@ Testo esercizio 1
 
 ### Le spese di una giornata
 
-Un negozio registra gli importi degli acquisti di una giornata. Scrivere un programma che legga un intero positivo `N` e successivamente `N` importi, uno per riga, ciascuno espresso come numero `float` non negativo.
+Un negozio registra gli importi degli acquisti di una giornata.
+Scrivere un programma che legga un intero positivo `N` e successivamente `N` importi, uno per riga, ciascuno espresso come numero `float` non negativo.
 
 Il programma deve stampare:
 
