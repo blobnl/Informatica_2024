@@ -10,7 +10,6 @@ paese km^2
 
 NOTA: ogni riga contiene un pease
 i due file contengono gli stessi paesi
-i paesi sono surighe corrispondenti nei due file..
 
 NOTA2: attenzione che ci sono paesi con nomi composti...
 Città del Vaticano -> Burkina Faso...
